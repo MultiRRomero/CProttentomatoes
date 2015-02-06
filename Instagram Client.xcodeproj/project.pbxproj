@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DAB01303609EE1F122C2AEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100A48D34F31B192A28B7B0D /* libPods.a */; };
 		EC4882071A83EFD400F495BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882061A83EFD400F495BB /* main.m */; };
 		EC48820A1A83EFD400F495BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882091A83EFD400F495BB /* AppDelegate.m */; };
-		EC48820D1A83EFD400F495BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48820C1A83EFD400F495BB /* ViewController.m */; };
-		EC4882101A83EFD400F495BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC48820E1A83EFD400F495BB /* Main.storyboard */; };
 		EC4882121A83EFD400F495BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4882111A83EFD400F495BB /* Images.xcassets */; };
 		EC4882151A83EFD400F495BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4882131A83EFD400F495BB /* LaunchScreen.xib */; };
 		EC4882211A83EFD400F495BB /* Instagram_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882201A83EFD400F495BB /* Instagram_ClientTests.m */; };
+		EC48822D1A83F62C00F495BB /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48822B1A83F62C00F495BB /* PhotosViewController.m */; };
+		EC48822E1A83F62C00F495BB /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC48822C1A83F62C00F495BB /* PhotosViewController.xib */; };
+		EC4882321A83F95600F495BB /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882301A83F95600F495BB /* ImageTableViewCell.m */; };
+		EC4882331A83F95600F495BB /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4882311A83F95600F495BB /* ImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +30,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100A48D34F31B192A28B7B0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75768521BE9A347D134135B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A4504281598C90EDB76A3262 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EC4882011A83EFD400F495BB /* Instagram Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4882051A83EFD400F495BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4882061A83EFD400F495BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC4882081A83EFD400F495BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC4882091A83EFD400F495BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EC48820B1A83EFD400F495BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC48820C1A83EFD400F495BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EC48820F1A83EFD400F495BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC4882111A83EFD400F495BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC4882141A83EFD400F495BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EC48821A1A83EFD400F495BB /* Instagram ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC48821F1A83EFD400F495BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4882201A83EFD400F495BB /* Instagram_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instagram_ClientTests.m; sourceTree = "<group>"; };
+		EC48822A1A83F62C00F495BB /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
+		EC48822B1A83F62C00F495BB /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
+		EC48822C1A83F62C00F495BB /* PhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
+		EC48822F1A83F95600F495BB /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		EC4882301A83F95600F495BB /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		EC4882311A83F95600F495BB /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAB01303609EE1F122C2AEC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +70,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71A6E6C1A4E41D176CB00D66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75768521BE9A347D134135B8 /* Pods.debug.xcconfig */,
+				A4504281598C90EDB76A3262 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF854448F0BB882E8E129470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				100A48D34F31B192A28B7B0D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EC4881F81A83EFD300F495BB = {
 			isa = PBXGroup;
 			children = (
 				EC4882031A83EFD400F495BB /* Instagram Client */,
 				EC48821D1A83EFD400F495BB /* Instagram ClientTests */,
 				EC4882021A83EFD400F495BB /* Products */,
+				71A6E6C1A4E41D176CB00D66 /* Pods */,
+				BF854448F0BB882E8E129470 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,9 +112,12 @@
 			children = (
 				EC4882081A83EFD400F495BB /* AppDelegate.h */,
 				EC4882091A83EFD400F495BB /* AppDelegate.m */,
-				EC48820B1A83EFD400F495BB /* ViewController.h */,
-				EC48820C1A83EFD400F495BB /* ViewController.m */,
-				EC48820E1A83EFD400F495BB /* Main.storyboard */,
+				EC48822A1A83F62C00F495BB /* PhotosViewController.h */,
+				EC48822B1A83F62C00F495BB /* PhotosViewController.m */,
+				EC48822C1A83F62C00F495BB /* PhotosViewController.xib */,
+				EC48822F1A83F95600F495BB /* ImageTableViewCell.h */,
+				EC4882301A83F95600F495BB /* ImageTableViewCell.m */,
+				EC4882311A83F95600F495BB /* ImageTableViewCell.xib */,
 				EC4882111A83EFD400F495BB /* Images.xcassets */,
 				EC4882131A83EFD400F495BB /* LaunchScreen.xib */,
 				EC4882041A83EFD400F495BB /* Supporting Files */,
@@ -126,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC4882241A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram Client" */;
 			buildPhases = (
+				486AD00E94CD154BBE21EFA6 /* Check Pods Manifest.lock */,
 				EC4881FD1A83EFD300F495BB /* Sources */,
 				EC4881FE1A83EFD300F495BB /* Frameworks */,
 				EC4881FF1A83EFD300F495BB /* Resources */,
+				C078933F3F8F3B6CA64D2F1F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +233,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4882101A83EFD400F495BB /* Main.storyboard in Resources */,
+				EC48822E1A83F62C00F495BB /* PhotosViewController.xib in Resources */,
+				EC4882331A83F95600F495BB /* ImageTableViewCell.xib in Resources */,
 				EC4882151A83EFD400F495BB /* LaunchScreen.xib in Resources */,
 				EC4882121A83EFD400F495BB /* Images.xcassets in Resources */,
 			);
@@ -214,13 +249,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		486AD00E94CD154BBE21EFA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C078933F3F8F3B6CA64D2F1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EC4881FD1A83EFD300F495BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC48820D1A83EFD400F495BB /* ViewController.m in Sources */,
 				EC48820A1A83EFD400F495BB /* AppDelegate.m in Sources */,
+				EC4882321A83F95600F495BB /* ImageTableViewCell.m in Sources */,
+				EC48822D1A83F62C00F495BB /* PhotosViewController.m in Sources */,
 				EC4882071A83EFD400F495BB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +313,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EC48820E1A83EFD400F495BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EC48820F1A83EFD400F495BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EC4882131A83EFD400F495BB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +402,7 @@
 		};
 		EC4882251A83EFD400F495BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75768521BE9A347D134135B8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Instagram Client/Info.plist";
@@ -351,6 +413,7 @@
 		};
 		EC4882261A83EFD400F495BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4504281598C90EDB76A3262 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Instagram Client/Info.plist";
@@ -412,6 +475,7 @@
 				EC4882261A83EFD400F495BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC4882271A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram ClientTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +484,7 @@
 				EC4882291A83EFD400F495BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
