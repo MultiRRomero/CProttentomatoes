@@ -12,7 +12,7 @@
 		EC48820A1A83EFD400F495BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882091A83EFD400F495BB /* AppDelegate.m */; };
 		EC4882121A83EFD400F495BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4882111A83EFD400F495BB /* Images.xcassets */; };
 		EC4882151A83EFD400F495BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC4882131A83EFD400F495BB /* LaunchScreen.xib */; };
-		EC4882211A83EFD400F495BB /* Instagram_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882201A83EFD400F495BB /* Instagram_ClientTests.m */; };
+		EC4882211A83EFD400F495BB /* RottenTomatoes_ClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882201A83EFD400F495BB /* RottenTomatoes_ClientTests.m */; };
 		EC48822D1A83F62C00F495BB /* PhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC48822B1A83F62C00F495BB /* PhotosViewController.m */; };
 		EC48822E1A83F62C00F495BB /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC48822C1A83F62C00F495BB /* PhotosViewController.xib */; };
 		EC4882321A83F95600F495BB /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882301A83F95600F495BB /* ImageTableViewCell.m */; };
@@ -25,7 +25,7 @@
 			containerPortal = EC4881F91A83EFD300F495BB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC4882001A83EFD300F495BB;
-			remoteInfo = "Instagram Client";
+			remoteInfo = "RottenTomatoes Client";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -33,16 +33,16 @@
 		100A48D34F31B192A28B7B0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75768521BE9A347D134135B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A4504281598C90EDB76A3262 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		EC4882011A83EFD400F495BB /* Instagram Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4882011A83EFD400F495BB /* RottenTomatoes Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RottenTomatoes Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4882051A83EFD400F495BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4882061A83EFD400F495BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EC4882081A83EFD400F495BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC4882091A83EFD400F495BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC4882111A83EFD400F495BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC4882141A83EFD400F495BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EC48821A1A83EFD400F495BB /* Instagram ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Instagram ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC48821A1A83EFD400F495BB /* RottenTomatoes ClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RottenTomatoes ClientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC48821F1A83EFD400F495BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC4882201A83EFD400F495BB /* Instagram_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Instagram_ClientTests.m; sourceTree = "<group>"; };
+		EC4882201A83EFD400F495BB /* RottenTomatoes_ClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RottenTomatoes_ClientTests.m; sourceTree = "<group>"; };
 		EC48822A1A83F62C00F495BB /* PhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosViewController.h; sourceTree = "<group>"; };
 		EC48822B1A83F62C00F495BB /* PhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosViewController.m; sourceTree = "<group>"; };
 		EC48822C1A83F62C00F495BB /* PhotosViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 		EC4881F81A83EFD300F495BB = {
 			isa = PBXGroup;
 			children = (
-				EC4882031A83EFD400F495BB /* Instagram Client */,
-				EC48821D1A83EFD400F495BB /* Instagram ClientTests */,
+				EC4882031A83EFD400F495BB /* RottenTomatoes Client */,
+				EC48821D1A83EFD400F495BB /* RottenTomatoes ClientTests */,
 				EC4882021A83EFD400F495BB /* Products */,
 				71A6E6C1A4E41D176CB00D66 /* Pods */,
 				BF854448F0BB882E8E129470 /* Frameworks */,
@@ -101,13 +101,13 @@
 		EC4882021A83EFD400F495BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EC4882011A83EFD400F495BB /* Instagram Client.app */,
-				EC48821A1A83EFD400F495BB /* Instagram ClientTests.xctest */,
+				EC4882011A83EFD400F495BB /* RottenTomatoes Client.app */,
+				EC48821A1A83EFD400F495BB /* RottenTomatoes ClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC4882031A83EFD400F495BB /* Instagram Client */ = {
+		EC4882031A83EFD400F495BB /* RottenTomatoes Client */ = {
 			isa = PBXGroup;
 			children = (
 				EC4882081A83EFD400F495BB /* AppDelegate.h */,
@@ -122,7 +122,7 @@
 				EC4882131A83EFD400F495BB /* LaunchScreen.xib */,
 				EC4882041A83EFD400F495BB /* Supporting Files */,
 			);
-			path = "Instagram Client";
+			path = "RottenTomatoes Client";
 			sourceTree = "<group>";
 		};
 		EC4882041A83EFD400F495BB /* Supporting Files */ = {
@@ -134,13 +134,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC48821D1A83EFD400F495BB /* Instagram ClientTests */ = {
+		EC48821D1A83EFD400F495BB /* RottenTomatoes ClientTests */ = {
 			isa = PBXGroup;
 			children = (
-				EC4882201A83EFD400F495BB /* Instagram_ClientTests.m */,
+				EC4882201A83EFD400F495BB /* RottenTomatoes_ClientTests.m */,
 				EC48821E1A83EFD400F495BB /* Supporting Files */,
 			);
-			path = "Instagram ClientTests";
+			path = "RottenTomatoes ClientTests";
 			sourceTree = "<group>";
 		};
 		EC48821E1A83EFD400F495BB /* Supporting Files */ = {
@@ -154,9 +154,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EC4882001A83EFD300F495BB /* Instagram Client */ = {
+		EC4882001A83EFD300F495BB /* RottenTomatoes Client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC4882241A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram Client" */;
+			buildConfigurationList = EC4882241A83EFD400F495BB /* Build configuration list for PBXNativeTarget "RottenTomatoes Client" */;
 			buildPhases = (
 				486AD00E94CD154BBE21EFA6 /* Check Pods Manifest.lock */,
 				EC4881FD1A83EFD300F495BB /* Sources */,
@@ -168,14 +168,14 @@
 			);
 			dependencies = (
 			);
-			name = "Instagram Client";
-			productName = "Instagram Client";
-			productReference = EC4882011A83EFD400F495BB /* Instagram Client.app */;
+			name = "RottenTomatoes Client";
+			productName = "RottenTomatoes Client";
+			productReference = EC4882011A83EFD400F495BB /* RottenTomatoes Client.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EC4882191A83EFD400F495BB /* Instagram ClientTests */ = {
+		EC4882191A83EFD400F495BB /* RottenTomatoes ClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EC4882271A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram ClientTests" */;
+			buildConfigurationList = EC4882271A83EFD400F495BB /* Build configuration list for PBXNativeTarget "RottenTomatoes ClientTests" */;
 			buildPhases = (
 				EC4882161A83EFD400F495BB /* Sources */,
 				EC4882171A83EFD400F495BB /* Frameworks */,
@@ -186,9 +186,9 @@
 			dependencies = (
 				EC48821C1A83EFD400F495BB /* PBXTargetDependency */,
 			);
-			name = "Instagram ClientTests";
-			productName = "Instagram ClientTests";
-			productReference = EC48821A1A83EFD400F495BB /* Instagram ClientTests.xctest */;
+			name = "RottenTomatoes ClientTests";
+			productName = "RottenTomatoes ClientTests";
+			productReference = EC48821A1A83EFD400F495BB /* RottenTomatoes ClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +209,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EC4881FC1A83EFD300F495BB /* Build configuration list for PBXProject "Instagram Client" */;
+			buildConfigurationList = EC4881FC1A83EFD300F495BB /* Build configuration list for PBXProject "RottenTomatoes Client" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,8 +222,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EC4882001A83EFD300F495BB /* Instagram Client */,
-				EC4882191A83EFD400F495BB /* Instagram ClientTests */,
+				EC4882001A83EFD300F495BB /* RottenTomatoes Client */,
+				EC4882191A83EFD400F495BB /* RottenTomatoes ClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC4882211A83EFD400F495BB /* Instagram_ClientTests.m in Sources */,
+				EC4882211A83EFD400F495BB /* RottenTomatoes_ClientTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		EC48821C1A83EFD400F495BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EC4882001A83EFD300F495BB /* Instagram Client */;
+			target = EC4882001A83EFD300F495BB /* RottenTomatoes Client */;
 			targetProxy = EC48821B1A83EFD400F495BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -405,7 +405,7 @@
 			baseConfigurationReference = 75768521BE9A347D134135B8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Instagram Client/Info.plist";
+				INFOPLIST_FILE = "RottenTomatoes Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,7 +416,7 @@
 			baseConfigurationReference = A4504281598C90EDB76A3262 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Instagram Client/Info.plist";
+				INFOPLIST_FILE = "RottenTomatoes Client/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -434,10 +434,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Instagram ClientTests/Info.plist";
+				INFOPLIST_FILE = "RottenTomatoes ClientTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram Client.app/Instagram Client";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenTomatoes Client.app/RottenTomatoes Client";
 			};
 			name = Debug;
 		};
@@ -449,17 +449,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Instagram ClientTests/Info.plist";
+				INFOPLIST_FILE = "RottenTomatoes ClientTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instagram Client.app/Instagram Client";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RottenTomatoes Client.app/RottenTomatoes Client";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EC4881FC1A83EFD300F495BB /* Build configuration list for PBXProject "Instagram Client" */ = {
+		EC4881FC1A83EFD300F495BB /* Build configuration list for PBXProject "RottenTomatoes Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC4882221A83EFD400F495BB /* Debug */,
@@ -468,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC4882241A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram Client" */ = {
+		EC4882241A83EFD400F495BB /* Build configuration list for PBXNativeTarget "RottenTomatoes Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC4882251A83EFD400F495BB /* Debug */,
@@ -477,7 +477,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EC4882271A83EFD400F495BB /* Build configuration list for PBXNativeTarget "Instagram ClientTests" */ = {
+		EC4882271A83EFD400F495BB /* Build configuration list for PBXNativeTarget "RottenTomatoes ClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EC4882281A83EFD400F495BB /* Debug */,

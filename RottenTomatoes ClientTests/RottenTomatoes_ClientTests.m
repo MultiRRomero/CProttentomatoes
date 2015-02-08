@@ -1,6 +1,6 @@
 //
-//  Instagram_ClientTests.m
-//  Instagram ClientTests
+//  RottenTomatoes_ClientTests.m
+//  RottenTomatoes ClientTests
 //
 //  Created by Rafi Romero on 2/5/15.
 //  Copyright (c) 2015 codepath. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface Instagram_ClientTests : XCTestCase
+@interface RottenTomatoes_ClientTests : XCTestCase
 
 @end
 
-@implementation Instagram_ClientTests
+@implementation RottenTomatoes_ClientTests
 
 - (void)setUp {
     [super setUp];
