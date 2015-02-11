@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0DAB01303609EE1F122C2AEC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 100A48D34F31B192A28B7B0D /* libPods.a */; };
+		EC1CCF361A8A8C8B00134B10 /* MovieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1CCF341A8A8C8B00134B10 /* MovieDetailsViewController.m */; };
+		EC1CCF371A8A8C8B00134B10 /* MovieDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC1CCF351A8A8C8B00134B10 /* MovieDetailsViewController.xib */; };
+		EC3DDA661A8AC19200E23E66 /* NetworkErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC3DDA651A8AC19200E23E66 /* NetworkErrorView.xib */; };
 		EC4882071A83EFD400F495BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882061A83EFD400F495BB /* main.m */; };
 		EC48820A1A83EFD400F495BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4882091A83EFD400F495BB /* AppDelegate.m */; };
 		EC4882121A83EFD400F495BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4882111A83EFD400F495BB /* Images.xcassets */; };
@@ -33,6 +36,10 @@
 		100A48D34F31B192A28B7B0D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		75768521BE9A347D134135B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A4504281598C90EDB76A3262 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EC1CCF331A8A8C8B00134B10 /* MovieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailsViewController.h; sourceTree = "<group>"; };
+		EC1CCF341A8A8C8B00134B10 /* MovieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailsViewController.m; sourceTree = "<group>"; };
+		EC1CCF351A8A8C8B00134B10 /* MovieDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovieDetailsViewController.xib; sourceTree = "<group>"; };
+		EC3DDA651A8AC19200E23E66 /* NetworkErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkErrorView.xib; sourceTree = "<group>"; };
 		EC4882011A83EFD400F495BB /* RottenTomatoes Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RottenTomatoes Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4882051A83EFD400F495BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC4882061A83EFD400F495BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -112,12 +119,9 @@
 			children = (
 				EC4882081A83EFD400F495BB /* AppDelegate.h */,
 				EC4882091A83EFD400F495BB /* AppDelegate.m */,
-				EC48822A1A83F62C00F495BB /* PhotosViewController.h */,
-				EC48822B1A83F62C00F495BB /* PhotosViewController.m */,
-				EC48822C1A83F62C00F495BB /* PhotosViewController.xib */,
-				EC48822F1A83F95600F495BB /* ImageTableViewCell.h */,
-				EC4882301A83F95600F495BB /* ImageTableViewCell.m */,
-				EC4882311A83F95600F495BB /* ImageTableViewCell.xib */,
+				EC8511A51A8AA16100B31AFE /* Table */,
+				EC8511A31A8AA14F00B31AFE /* Cell */,
+				EC8511A21A8AA14500B31AFE /* Detail */,
 				EC4882111A83EFD400F495BB /* Images.xcassets */,
 				EC4882131A83EFD400F495BB /* LaunchScreen.xib */,
 				EC4882041A83EFD400F495BB /* Supporting Files */,
@@ -149,6 +153,37 @@
 				EC48821F1A83EFD400F495BB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8511A21A8AA14500B31AFE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CCF331A8A8C8B00134B10 /* MovieDetailsViewController.h */,
+				EC1CCF341A8A8C8B00134B10 /* MovieDetailsViewController.m */,
+				EC1CCF351A8A8C8B00134B10 /* MovieDetailsViewController.xib */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		EC8511A31A8AA14F00B31AFE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EC48822F1A83F95600F495BB /* ImageTableViewCell.h */,
+				EC4882301A83F95600F495BB /* ImageTableViewCell.m */,
+				EC4882311A83F95600F495BB /* ImageTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		EC8511A51A8AA16100B31AFE /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				EC48822A1A83F62C00F495BB /* PhotosViewController.h */,
+				EC48822B1A83F62C00F495BB /* PhotosViewController.m */,
+				EC48822C1A83F62C00F495BB /* PhotosViewController.xib */,
+				EC3DDA651A8AC19200E23E66 /* NetworkErrorView.xib */,
+			);
+			name = Table;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +270,10 @@
 			files = (
 				EC48822E1A83F62C00F495BB /* PhotosViewController.xib in Resources */,
 				EC4882331A83F95600F495BB /* ImageTableViewCell.xib in Resources */,
+				EC3DDA661A8AC19200E23E66 /* NetworkErrorView.xib in Resources */,
 				EC4882151A83EFD400F495BB /* LaunchScreen.xib in Resources */,
 				EC4882121A83EFD400F495BB /* Images.xcassets in Resources */,
+				EC1CCF371A8A8C8B00134B10 /* MovieDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1CCF361A8A8C8B00134B10 /* MovieDetailsViewController.m in Sources */,
 				EC48820A1A83EFD400F495BB /* AppDelegate.m in Sources */,
 				EC4882321A83F95600F495BB /* ImageTableViewCell.m in Sources */,
 				EC48822D1A83F62C00F495BB /* PhotosViewController.m in Sources */,

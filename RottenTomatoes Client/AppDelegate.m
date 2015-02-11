@@ -10,7 +10,6 @@
 #import "PhotosViewController.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -25,6 +24,7 @@
         [[UINavigationController alloc] initWithRootViewController:photosViewController];
     
     self.window.rootViewController = navigationController;
+    photosViewController.nav = navigationController;
     
     // Override point for customization after application launch.
     return YES;

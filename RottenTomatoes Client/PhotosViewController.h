@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface PhotosViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
-
+@property (nonatomic, strong) UINavigationController* nav;
 @end
